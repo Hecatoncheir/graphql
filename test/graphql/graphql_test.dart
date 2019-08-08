@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:pedantic/pedantic.dart';
 import 'package:test/test.dart';
 
-import 'package:graphql/graphql/graphql.dart';
+import 'package:graphql/graphql.dart';
 
 void main() {
   group('GraphQL', () {

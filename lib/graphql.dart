@@ -1,12 +1,12 @@
 import 'dart:async';
 
 import 'package:graphql_parser/graphql_parser.dart';
-import 'package:graphql_schema/graphql_schema.dart';
+import 'schema/schema.dart';
 
 import 'introspection.dart';
 
 export 'package:graphql_parser/graphql_parser.dart';
-export 'package:graphql_schema/graphql_schema.dart';
+export 'schema/schema.dart';
 
 /// Transforms any [Map] into `Map<String, dynamic>`.
 Map<String, dynamic> foldToStringDynamic(Map map) {

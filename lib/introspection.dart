@@ -1,5 +1,6 @@
 import 'package:graphql_parser/graphql_parser.dart';
-import 'package:graphql_schema/graphql_schema.dart';
+
+import 'schema/schema.dart';
 
 // ignore: lines_longer_than_80_chars
 /// Performs introspection over a GraphQL [schema], and returns a new one, containing
