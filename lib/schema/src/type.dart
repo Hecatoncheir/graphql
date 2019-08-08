@@ -36,9 +36,7 @@ abstract class GraphQLType<Value, Serialized> {
 }
 
 /// Shorthand to create a [GraphQLListType].
-GraphQLListType<Value, Serialized> listOf<Value, Serialized>(
-        GraphQLType<Value, Serialized> innerType) =>
-    new GraphQLListType<Value, Serialized>(innerType);
+GraphQLListType listOf(GraphQLType innerType) => new GraphQLListType(innerType);
 
 /// A special [GraphQLType] that indicates that input vales should be a list of another type, [ofType].
 class GraphQLListType<Value, Serialized>
